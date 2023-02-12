@@ -1,0 +1,15 @@
+local storage:
+
+=> local storage store data in its local
+=> on refresh and opening new tab data will reamin as it is
+=> set example:
+window.localStorage.setItem("Name", "Rushali")
+window.localStorage.getItem("Name")
+
+session storage:
+
+ => session  storage store data in its session
+ =>  opening new tab data will cleared\
+ => set example:
+window.sessionStorage.setItem("Name", "Rushali")
+window.sessionStorage.getItem("Name")
